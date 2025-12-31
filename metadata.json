@@ -1,0 +1,7 @@
+{
+  "name": "অর্থনীতি - আধুনিক জীবন শিক্ষা",
+  "description": "A premium, minimalist educational platform designed for the modern Bengali audience, focusing on life skills and financial wisdom through a calm, conversational interface.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
