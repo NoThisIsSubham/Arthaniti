@@ -1,10 +1,13 @@
 import React from 'react';
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+  onNavigate: (state: 'hero' | 'learningPage' | 'mentor' | 'about' | 'learning') => void;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white px-12 py-6 flex justify-between items-baseline border-b border-gray-100 shadow-sm select-none">
       <style>{`
-        /* nav-link underline: center-expand, limited to the exact text width */
         .nav-link {
           position: relative;
           display: inline-block;
@@ -16,15 +19,15 @@ const Navbar: React.FC = () => {
           left: 50%;
           bottom: -6px;
           height: 3px;
-          background: #000; /* black strip */
-          width: 100%; /* match the width of the link text */
+          background: #000;
+          width: 100%;
           transform: translateX(-50%) scaleX(0);
           transform-origin: center;
           transition: transform 260ms cubic-bezier(.2,.9,.2,1), opacity 200ms;
           opacity: 0.95;
         }
         .nav-link:hover::after {
-          transform: translateX(-50%) scaleX(1); /* expand only to text width */
+          transform: translateX(-50%) scaleX(1);
         }
       `}</style>
 
@@ -32,10 +35,10 @@ const Navbar: React.FC = () => {
         অর্থনীতি ™ <span className="text-sm font-light text-stone-400 ml-2 select-none">ARTHANITI</span>
       </div>
       <div className="flex gap-12 text-sm font-medium text-stone-500 uppercase tracking-widest select-none">
-        <a href="#about" className="nav-link hover:text-stone-900 transition-colors">আমাদের লক্ষ্য</a>
-        <a href="#lessons" className="nav-link hover:text-stone-900 transition-colors">শিক্ষা</a>
-        <a href="#mentor" className="nav-link hover:text-stone-900 transition-colors">পরামর্শ</a>
-        <a href="#contact" className="nav-link hover:text-stone-900 transition-colors">যোগাযোগ</a>
+        <button onClick={() => onNavigate('hero')} className="nav-link hover:text-stone-900 transition-colors">আমাদের লক্ষ্য</button>
+        <button onClick={() => onNavigate('learningPage')} className="nav-link hover:text-stone-900 transition-colors">শিক্ষা</button>
+        <button onClick={() => onNavigate('mentor')} className="nav-link hover:text-stone-900 transition-colors">পরামর্শ</button>
+        <button onClick={() => onNavigate('about')} className="nav-link hover:text-stone-900 transition-colors">যোগাযোগ</button>
       </div>
     </nav>
   );
