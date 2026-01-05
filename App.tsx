@@ -57,17 +57,17 @@ const App: React.FC = () => {
             <div className="space-y-4">
               <h4 className="text-xs font-bold uppercase tracking-widest text-stone-900 select-none">লিঙ্ক</h4>
               <ul className="text-sm font-light text-stone-500 space-y-2">
-                <li><a href="#" className="hover:text-stone-900">গোপনীয়তা নীতি</a></li>
-                <li><a href="#" className="hover:text-stone-900">শর্তাবলী</a></li>
-                <li><a href="#" className="hover:text-stone-900">সহযোগিতা</a></li>
+                <li><a href="#" className="hover:text-stone-900 select-none">গোপনীয়তা নীতি</a></li>
+                <li><a href="#" className="hover:text-stone-900 select-none">শর্তাবলী</a></li>
+                <li><a href="#" className="hover:text-stone-900 select-none">সহযোগিতা</a></li>
               </ul>
             </div>
             <div className="space-y-4">
               <h4 className="text-xs font-bold uppercase tracking-widest text-stone-900 select-none">সামাজিক</h4>
               <ul className="text-sm font-light text-stone-500 space-y-2">
-                <li><a href="#" className="hover:text-stone-900">ফেসবুক</a></li>
-                <li><a href="#" className="hover:text-stone-900">লিঙ্কডইন</a></li>
-                <li><a href="#" className="hover:text-stone-900">ইউটিউব</a></li>
+                <li><a href="#" className="hover:text-stone-900 select-none">ফেসবুক</a></li>
+                <li><a href="#" className="hover:text-stone-900 select-none">লিঙ্কডইন</a></li>
+                <li><a href="#" className="hover:text-stone-900 select-none">ইউটিউব</a></li>
               </ul>
             </div>
           </div>
