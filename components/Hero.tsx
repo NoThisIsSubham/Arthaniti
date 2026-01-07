@@ -111,7 +111,7 @@ const Hero: React.FC<HeroProps> = ({ onStart }) => {
 
       <div className="absolute right-0 top-0 w-full h-screen -z-0 pointer-events-none">
         <img
-          src="Assets/hero_image.png"
+          src="../Assets/hero_image.png"
           className="w-full h-full object-cover grayscale opacity-90 transition-all duration-[20s] hover:scale-110 hover:grayscale-0"
         />
       </div>
