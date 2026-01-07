@@ -1,4 +1,8 @@
 import React from 'react';
+import TrollImage from '../Assets/Troll.webp';
+import DebamImage from '../Assets/Debam.jpg';
+import SayanImage from '../Assets/Sayan.jpg';
+import SandipanImage from '../Assets/Sandipan.jpg';
 
 interface TeamMember {
   id: string;
@@ -14,32 +18,32 @@ const TEAM: TeamMember[] = [
     id: 'member1',
     name: 'Subham Bairagi',
     role: 'Leader & Visionary',
-    image: '../Assets/Troll.webp', // 🔴 REPLACE: Add actual image path
-    linkedIn: 'https://www.linkedin.com/in/subham-bairagi-06b7012a1/', // 🔴 REPLACE: Add LinkedIn URL
+    image: TrollImage,
+    linkedIn: 'https://www.linkedin.com/in/subham-bairagi-06b7012a1/',
     monologue: 'Arthaniti was born from the vision that finance can be simple and relatable. In Bengali, ByteForce brings lessons to life, helping everyone understand concepts, not giving advice.'
   },
   {
     id: 'member2',
     name: 'Debam Das',
     role: 'Engineering & Architecture',
-    image: '../Assets/Debam.jpg', // 🔴 REPLACE: Add actual image path
-    linkedIn: 'https://www.linkedin.com/in/debam-das-993581357/', // 🔴 REPLACE: Add LinkedIn URL
+    image: DebamImage,
+    linkedIn: 'https://www.linkedin.com/in/debam-das-993581357/',
     monologue: 'I turn ideas into interactive experiences. Minimalistic GUI and quizzes make learning with Kaka Babu smooth, clear, and engaging. Education should be empowering, not intimidating.'
   },
   {
     id: 'member3',
     name: 'Sayan Das',
     role: 'Design & Experience',
-    image: '../Assets/Sayan.jpg', // 🔴 REPLACE: Add actual image path
-    linkedIn: 'https://www.linkedin.com/in/sayan-das-478961398/', // 🔴 REPLACE: Add LinkedIn URL
+    image: SayanImage,
+    linkedIn: 'https://www.linkedin.com/in/sayan-das-478961398/',
     monologue: 'Every screen, every tap matters. I make sure Arthaniti intuitive and enjoyable, so learning in Bengali feels natural and effortless'
   },
   {
     id: 'member4',
     name: 'Sandipan Majumder',
     role: 'Content & Community',
-    image: '../Assets/Sandipan.jpg', // 🔴 REPLACE: Add actual image path
-    linkedIn: 'https://www.linkedin.com/in/sandipan-majumder-65303539b/', // 🔴 REPLACE: Add LinkedIn URL
+    image: SandipanImage,
+    linkedIn: 'https://www.linkedin.com/in/sandipan-majumder-65303539b/',
     monologue: 'I craft lessons into stories that stick. Arthaniti guides users gently, making finance approachable without ever giving advice.'
   }
 ];

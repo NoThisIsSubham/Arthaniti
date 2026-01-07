@@ -1,0 +1,3 @@
+- no quiz under 'shikhaan': Only content.
+- add api switching logic for expanding conversation size for 'Boro Kaku'. 
+(Trade-off: This will slow down queries once initial apis exhaust)
