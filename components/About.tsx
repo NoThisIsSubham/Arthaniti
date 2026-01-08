@@ -1,5 +1,5 @@
 import React from 'react';
-import TrollImage from '../Assets/Troll.webp';
+import SubhamImage from '../Assets/Subham.jpg';
 import DebamImage from '../Assets/Debam.jpg';
 import SayanImage from '../Assets/Sayan.jpg';
 import SandipanImage from '../Assets/Sandipan.jpg';
@@ -18,7 +18,7 @@ const TEAM: TeamMember[] = [
     id: 'member1',
     name: 'Subham Bairagi',
     role: 'Leader & Visionary',
-    image: TrollImage,
+    image: SubhamImage,
     linkedIn: 'https://www.linkedin.com/in/subham-bairagi-06b7012a1/',
     monologue: 'Arthaniti was born from the vision that finance can be simple and relatable. In Bengali, ByteForce brings lessons to life, helping everyone understand concepts, not giving advice.'
   },
