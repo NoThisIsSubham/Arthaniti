@@ -20,7 +20,7 @@ const TEAM: TeamMember[] = [
     role: 'Leader & Visionary',
     image: SubhamImage,
     linkedIn: 'https://www.linkedin.com/in/subham-bairagi-06b7012a1/',
-    monologue: 'Arthaniti was born from the vision that finance can be simple and relatable. In Bengali, ByteForce brings lessons to life, helping everyone understand concepts, not giving advice.'
+    monologue: 'Arthaniti was born from the vision that finance can be simple and relatable. In Bengali, ByteForce brings lessons to life, helping everyone understand concepts amicably.'
   },
   {
     id: 'member2',
