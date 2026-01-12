@@ -46,7 +46,7 @@ const App: React.FC = () => {
           <div>
             <div className="text-xl font-bold tracking-tighter text-stone-800 mb-8 select-none">অর্থনীতি ™</div>
             <div className="text-stone-400 text-sm font-light select-none">
-              © ২০২৪ অর্থনীতি | সকল অধিকার সংরক্ষিত।
+              © ২০২৫ অর্থনীতি | সকল অধিকার সংরক্ষিত।
             </div>
           </div>
           <div className="text-xs font-medium tracking-[0.2em] text-stone-400 select-none flex items-baseline gap-2">

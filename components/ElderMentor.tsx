@@ -64,7 +64,7 @@ const ElderMentor: React.FC = () => {
   };
 
   return (
-    <section id="mentor" className="py-32 px-12 bg-stone-900 text-white flex flex-col items-center overflow-hidden">
+    <section id="mentor" className="py-32 px-12 bg-stone-900 text-white flex flex-col items-center overflow-hidden caret-transparent">
       <div className="max-w-4xl w-full">
         <div className="mb-16 text-center">
           <h2 className="text-7xl font-light mb-6 select-none animate-slide-left">কাকা বাবু</h2>

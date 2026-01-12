@@ -50,20 +50,20 @@ const TEAM: TeamMember[] = [
 
 const About: React.FC = () => {
   return (
-    <main className="bg-white text-stone-900">
+    <main className="bg-white text-stone-900 caret-transparent">
       {/* Hero Section */}
       <section className="min-h-[60vh] px-12 py-40 flex flex-col items-center justify-center bg-gradient-to-b from-stone-50 to-white border-b border-stone-100 hero-section-fade">
         <div className="max-w-3xl text-center space-y-8">
           <div className="space-y-6">
-            <h1 className="text-7xl md:text-8xl font-light tracking-tight text-stone-900 select-none hero-title-fade">
+            <h1 className="text-7xl md:text-8xl font-light tracking-tight text-stone-900 hero-title-fade">
               আমাদের দল
             </h1>
-            <p className="text-2xl font-light text-stone-500 tracking-wide select-none hero-subtitle-fade">
+            <p className="text-2xl font-light text-stone-500 tracking-wide hero-subtitle-fade">
               অর্থনীতি ™
             </p>
           </div>
 
-          <p className="text-xl md:text-2xl font-light text-stone-600 leading-relaxed max-w-2xl mx-auto select-none hero-description-fade">
+          <p className="text-xl md:text-2xl font-light text-stone-600 leading-relaxed max-w-2xl mx-auto hero-description-fade">
             Team ByteForce on a mission to make financial wisdom accessible in Bengali. We believe wealth literacy isn't a luxury—it's a right.
           </p>
 
@@ -85,10 +85,10 @@ const About: React.FC = () => {
       {/* Closing Section */}
       <section className="px-12 py-32 bg-stone-50 border-t border-stone-100 flex flex-col items-center justify-center text-center closing-section-fade">
         <div className="max-w-2xl space-y-6">
-          <h2 className="text-4xl md:text-5xl font-light text-stone-900 select-none closing-title-fade">
+          <h2 className="text-4xl md:text-5xl font-light text-stone-900 closing-title-fade">
             Built with intention.
           </h2>
-          <p className="text-lg text-stone-600 font-light leading-relaxed select-none closing-description-fade">
+          <p className="text-lg text-stone-600 font-light leading-relaxed closing-description-fade">
             Every decision we make is guided by a single principle: Does this help someone understand their financial future better?
           </p>
           <div className="h-px w-12 bg-stone-300 mx-auto mt-8 closing-divider-fade" />
@@ -193,7 +193,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
     <div className="group animate-fade-in">
       <div className="space-y-8">
         {/* Image Container */}
-        <div className="overflow-hidden bg-stone-100 aspect-square rounded-sm border border-stone-200 transition-all duration-500 group-hover:border-stone-400">
+        <div className="overflow-hidden bg-stone-100 aspect-square rounded-sm border border-stone-200 transition-all duration-500 group-hover:border-stone-400 select-none">
           <img
             src={member.image}
             alt={member.name}
@@ -205,7 +205,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
         {/* Name + LinkedIn */}
         <div className="space-y-3">
           <div className="flex items-center gap-3 group/name">
-            <h3 className="text-3xl md:text-4xl font-light text-stone-900 select-none">
+            <h3 className="text-3xl md:text-4xl font-light text-stone-900 caret-transparent">
               {member.name}
             </h3>
             <a
@@ -224,13 +224,13 @@ const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
               </svg>
             </a>
           </div>
-          <p className="text-sm uppercase tracking-widest text-stone-500 font-medium select-none">
+          <p className="text-sm uppercase tracking-widest text-stone-500 font-medium">
             {member.role}
           </p>
         </div>
 
         {/* Monologue */}
-        <p className="text-lg font-light text-stone-700 leading-relaxed select-none">
+        <p className="text-lg font-light text-stone-700 leading-relaxed">
           "{member.monologue}"
         </p>
       </div>

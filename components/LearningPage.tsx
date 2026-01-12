@@ -29,7 +29,7 @@ const LearningPage: React.FC<LearningPageProps> = ({ onNavigate }) => {
   };
 
   return (
-    <section className="min-h-screen py-32 px-12 bg-white flex flex-col items-center justify-center">
+    <section className="min-h-screen py-32 px-12 bg-white flex flex-col items-center justify-center caret-transparent">
       <div className="max-w-4xl w-full">
         {/* Static heading */}
         <div className="mb-16">
